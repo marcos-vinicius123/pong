@@ -1,3 +1,0 @@
-/home/nissin/Documents/estudos c++/pong/out/build/GCC 14.2.1 x86_64-pc-linux-gnu/CMakeFiles/pong.dir
-/home/nissin/Documents/estudos c++/pong/out/build/GCC 14.2.1 x86_64-pc-linux-gnu/CMakeFiles/edit_cache.dir
-/home/nissin/Documents/estudos c++/pong/out/build/GCC 14.2.1 x86_64-pc-linux-gnu/CMakeFiles/rebuild_cache.dir
