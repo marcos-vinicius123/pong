@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/nissin/Documents/estudos c++/pong/build",
+  "command": "/usr/bin/c++  -isystem /usr/local/include/SDL2 -g -o CMakeFiles/pong.dir/src/main.cpp.o -c \"/home/nissin/Documents/estudos c++/pong/src/main.cpp\"",
+  "file": "/home/nissin/Documents/estudos c++/pong/src/main.cpp",
+  "output": "CMakeFiles/pong.dir/src/main.cpp.o"
+}
+]

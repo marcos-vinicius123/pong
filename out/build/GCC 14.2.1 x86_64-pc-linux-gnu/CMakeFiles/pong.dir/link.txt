@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/pong.dir/link.d CMakeFiles/pong.dir/src/bola.cpp.o CMakeFiles/pong.dir/src/main.cpp.o CMakeFiles/pong.dir/src/raquete.cpp.o -o pong   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/local/lib/libSDL2.so
