@@ -1,3 +1,0 @@
-/home/nissin/Documents/estudos c++/pong/build/CMakeFiles/pong.dir
-/home/nissin/Documents/estudos c++/pong/build/CMakeFiles/edit_cache.dir
-/home/nissin/Documents/estudos c++/pong/build/CMakeFiles/rebuild_cache.dir
