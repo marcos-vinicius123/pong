@@ -2,6 +2,7 @@
 #include "config.h"
 #include "raquete.h"
 #include "bola.h"
+#include <iostream>
 
 int main(int, char**){
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
@@ -18,6 +19,7 @@ int main(int, char**){
     Raquete raquete2 = {TAMANHO_TELA[0]-TAMANHO_RAQUETE[0]-10,
                         TAMANHO_TELA[1]/2-TAMANHO_RAQUETE[1]/2};
     
+    int score[2] = { 0 };
     Bola bola;
 
     while (rodando) {
@@ -95,9 +97,16 @@ int main(int, char**){
         raquete2.update();
         bola.update(raquete1, raquete2);
 
+        if (bola.get_colidiu_parede()) {
+            score[!(bola.get_colidiu_parede()-1)] += 1;
+            bola.reset();
+            raquete1.reset();
+            raquete2.reset();
+            std::cout << score[0] << " " << score[1] << std::endl;
+        }
+
         raquete1.draw_raquete(renderer);
         raquete2.draw_raquete(renderer);
-
         bola.draw_bola(renderer);
 
         SDL_RenderPresent(renderer);
